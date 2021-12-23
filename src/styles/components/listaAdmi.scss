@@ -1,0 +1,71 @@
+
+.contenedor-listaAdmi{
+    // box-sizing: border-box;
+    // border: 1px solid saddlebrown;
+    padding: 10px;
+}
+
+.contenedor-listItem{
+    // border: 1px solid green;
+    padding: 10px;
+    display: flex;
+    width: 80%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid $gris;
+    background-color: $blanco;
+    text-align: center;
+    .juntar{
+        display: flex;
+        align-items: center;
+        // box-sizing: border-box;
+
+        input{
+            margin-right: 20px;
+        }
+        figure{
+            display: flex;
+            position: relative;
+            .fondo-estrella{
+                position: absolute;
+                left: 33px;
+                padding: 3px 4px 3px 4px;
+
+                background-color: $estrella;
+                border-radius: 100%;
+                i{
+                    color: $blanco;
+                    font-size: 12px;
+                }
+            }
+            
+            width: 50px;
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }   
+        .nombre{
+            margin-left: 64px;
+            color: $negro_trasparente;
+            font-weight: 700;
+        }
+    }
+
+    .apellido{
+        color: $grisOscuro;
+        font-weight: 400;
+    }
+    .final-listItem{
+        display: flex;
+        align-items: center;
+        .puntos{
+            margin-right: 30px;
+            color: $Primario;
+            font-weight: 700;
+        }
+
+    }
+
+}

@@ -1,0 +1,131 @@
+// ***** PORCENTAJE DE LA CATE QUE CAMBIO EN ADMINISTRADOR
+.Principal-cambiante{
+    // width: 80%;
+    background-color: $fondo_Principal;
+    box-sizing: border-box;
+}
+
+
+// ************** BARRA DE TITULO 
+
+.contenedor-barra{
+    
+    border-top: 3px solid $gris;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 9fr 3fr 3fr 0.5fr;
+    .item-barra{
+        padding-top: 15px;
+        border-left: 2.5px solid $gris;
+        padding-left: 10px;
+        .sub-titulo{
+            font-size: 10px;
+            font-weight: 100;
+            
+        }
+        .titulo{
+            font-size: 22px;
+            font-weight: 500;
+        }
+        .name{
+            font-weight: 700;
+        }
+        .numero-uno{
+            color: $funte_numeros;
+        }
+        .numero-dos{
+            color: $funte_numeros2;
+            
+        }
+        .contenedorICon{
+            background-color: $banco_inactivo;
+            padding: 10px;
+            border-radius: 50%;
+            box-shadow:  2px 2px 4px #666666,
+                        -2px -2px 4px #ffffff;
+        }
+    }
+    .iconito{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//  {/* ************** Buscador */}
+
+.contenedor-buscador{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    label{
+        border-radius: 5px;
+        width: 83%;
+        background: #ffffff;
+        padding: 5px 0 5px 10px;
+        border-bottom: 4px solid transparent;
+        &:hover{
+            border-bottom: 4px solid $gris;
+        }
+        
+        i{
+            // color: $gris;
+            // width: 10%;
+            padding-right: 10px;
+            font-size: 23px;
+
+        }
+        input{
+            box-sizing: border-box;
+            width: 96%;
+            font-size: 20px;
+            padding: 5px 10px 5px 10px;
+            border: none;
+            outline: none;
+            opacity: 0.5;
+
+            &:hover{
+                border: none;
+                outline: none;
+                
+            }
+            &:focus{
+                opacity: 1;
+            }
+            
+        }
+    }
+    button{
+        border-radius: 5px;
+        background-color: $Primario;
+        width: 15%;
+        color: $banco_inactivo;
+        box-sizing: border-box;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        i{
+            color: $banco_inactivo;
+            padding-right: 10px;
+            font-size: 20px;
+        }
+        &:hover{
+            color: $blanco;
+            i{
+            color: $blanco;
+                
+            }
+        }
+    }
+
+}
+
+
+// ************* ALGO ANDA MAL
+
+.hola{
+    margin: 10PX;
+    border: 1px solid orange;
+}

@@ -1,0 +1,42 @@
+.AppRouter-content{
+    // display: flex;
+    // box-sizing: border-box;
+}
+
+
+.content-navBar{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: $fondo_navbar;
+    height: 92vh;
+    width: 17%;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    ul{
+        padding: 0;
+        li {
+            list-style: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid grey;
+            letter-spacing: 1px;
+    
+            .link-navBar{
+                text-decoration: none;
+                text-transform: capitalize;
+                color: $banco_inactivo;
+                text-transform: uppercase;
+                font-family: 'Rubik', sans-serif;
+                font-weight: 300;
+                font-size: 18px;
+            }
+            .uil{
+                color: $icono_nabar_incativo;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    
+    
+}
